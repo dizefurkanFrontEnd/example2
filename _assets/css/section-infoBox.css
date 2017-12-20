@@ -1,0 +1,17 @@
+.infoBox {
+  margin-top: 20px;
+}
+
+.infoBox__box {
+  position: relative;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.infoBox__box__image {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
