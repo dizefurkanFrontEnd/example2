@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Example 2</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <link rel="stylesheet" type="text/css" href="./_assets/plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./_assets/plugins/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="./_assets/plugins/swiper/css/swiper.min.css">
-  <link rel="stylesheet" type="text/css" href="./_assets/css/nav.css">
-  <link rel="stylesheet" type="text/css" href="./_assets/css/section-swiper.css">
-  <link rel="stylesheet" type="text/css" href="./_assets/css/section-infoBox.css">
-  <link rel="stylesheet" type="text/css" href="./_assets/css/section-seoScoreArea.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/header.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/swiper.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/infoBox.css">
+  <link rel="stylesheet" type="text/css" href="./_assets/css/seoScoreArea.css">
 </head>
 <body>
   <header>
@@ -307,7 +307,7 @@
       </div>
     </div>
   </div>
-  <div class="seoScoreArea">
+  <div class="seoScoreArea" id="seoScoreArea">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-lg-12">
@@ -322,42 +322,7 @@
       </div>
     </div>
   </div>
-  <section>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <div id="araba">asdasd</div>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-    <p>selam</p>
-  </section>
+  <div></div>
   <footer>
     <span id="shortcutButton" class="shortcutButton"><i class="fa fa-level-up"></i></span>
   </footer>
@@ -374,22 +339,14 @@
     </div>
   </div>
   <script src="./_assets/plugins/jquery/jquery-3.2.1.min.js"></script>
-  <script src="./_assets/js/nav.js"></script>
   <script src="./_assets/plugins/swiper/js/swiper.min.js"></script>
+  <script src="./_assets/js/header.js"></script>
+  <script src="./_assets/js/seoscore.js"></script>
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
       speed: 600,
-      // parallax: true,
       effect: 'fade', // 'slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
-      // pagination: {
-      //   el: '.swiper-pagination',
-      //   clickable: true,
-      // },
-      // navigation: {
-      //   nextEl: '.swiper-button-next',
-      //   prevEl: '.swiper-button-prev',
-      // },
     });
   </script>
 </body>
